@@ -107,6 +107,11 @@ export default class TemplateEditor extends Component {
           function={this.props.changeFooterPatternColor}
         />
         <ColorPicker
+          name='Box Border Color'
+          function={this.props.changeFooterBorderColor}
+          currentState={this.props.state.footerBorderColor}
+        />
+        <ColorPicker
           name='Button Background'
           currentState={this.props.state.button.background}
           function={this.props.changeButtonBack}
