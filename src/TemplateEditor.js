@@ -48,7 +48,7 @@ export default class TemplateEditor extends Component {
           function={this.props.changeHeaderBackground}
           currentState={this.props.state.headerBackground}
         />
-        <label htmlFor='borderWidth'> Border Radius:</label>
+        {/* <label htmlFor='borderWidth'> Border Radius:</label>
         <input
           name='borderWidth'
           className='rounded-lg overflow-hidden appearance-none bg-gray-400 h-3 w-128 mt-1'
@@ -58,7 +58,7 @@ export default class TemplateEditor extends Component {
           type='range'
           min='0'
           max='100'
-        />
+        /> */}
 
         <h3> Header pattern:</h3>
         <PatternLibrary

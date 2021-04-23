@@ -98,8 +98,8 @@ export default class VerticalBlock extends Component {
           <div
             style={{
               ...headerPattern,
-              borderTopRightRadius: `${this.props.headerBorderRadius}px`,
-              borderBottomRightRadius: `${this.props.headerBorderRadius}px`,
+              // borderTopRightRadius: `${this.props.headerBorderRadius}px`,
+              // borderBottomRightRadius: `${this.props.headerBorderRadius}px`,
             }}
             className='w-full h-full absolute left-0 top-0 z-0'></div>
         </div>
